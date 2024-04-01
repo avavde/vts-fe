@@ -1,0 +1,24 @@
+/* styles.css */
+.map-container {
+    position: relative;
+    width: 100%; /* или конкретная ширина */
+    height: 500px; /* высота контейнера */
+    background-size: cover;
+}
+
+.marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(-50%, -50%); /* центрирование маркера */
+}
+
+.alert-message {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
